@@ -6,7 +6,7 @@ This is an API that converts numerical numbers to their corresponding writen nam
 *Requires dotnet*
 https://dotnet.microsoft.com/
 
-When starting program, it outputs the portnumbers its listening on as in the example.
+When starting the program, it outputs the portnumbers it's listening on as in the example.
 ![port-info-example](https://user-images.githubusercontent.com/48260537/135529470-68b5a00b-4144-4432-843b-0be8090f2e1e.png)
 
 The API has two endpoints, one for single numbers and one for multiple numbers.
