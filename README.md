@@ -37,6 +37,18 @@ Output
 TWO DOLLARS AND FIVE CENTS
 ZERO DOLLARS AND ONE CENT
 ```
+-----
+How to build and run the program in a docker container.
+
+To build the container, open commandoprompt and go to the projects folder, and run the following command
+```
+docker build -f ".\NumbersToStringAPI\Dockerfile" -t numberstostringapi .
+```
+After building the container, it's runnable useing this command
+```
+docker run -rm -P numberstostringapi
+```
+Now the API is accessible on the ports it has been (randomly) assigned.
 
 -----
 
@@ -56,7 +68,7 @@ Alternatively you can navigate to the build folder
 ```
 NumbersToStringAPI -> bin -> Release -> net5.0
 ```
-and run the program using the NumbersToStringAPI.exe file
+and run the program using the NumbersToStringAPI.exe file.
 
 -----
 
