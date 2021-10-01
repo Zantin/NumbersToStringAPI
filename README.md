@@ -1,6 +1,6 @@
 # NumbersToStringAPI
 
-This is an API that converts numerical numbers to their corresponding writen name.
+This is an API that converts numerical numbers to their corresponding written name.
 
 
 *Requires dotnet*
